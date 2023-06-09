@@ -18,7 +18,7 @@ This function will look up at [request object](https://docs.aws.amazon.com/Amazo
 
 ## Setup / Installation
 
-1. Compile `index.ts` in this repository to `js` or you can copy [this `index.js`](https://github.com/zrierc/cloudfront-subdomain-redirection/blob/index.js) that ready to use.
+1. Compile `index.ts` in this repository to `js` or you can copy [this `index.js`](https://github.com/zrierc/cloudfront-subdomain-redirection/blob/ready-to-use/index.js) that ready to use.
 
 2. Create CloudFront function. Paste `index.js` that you copied before in function code section.
 
