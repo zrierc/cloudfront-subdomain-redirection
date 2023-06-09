@@ -1,0 +1,21 @@
+{
+  "name": "cloudfront-subdomain-redirection",
+  "version": "1.0.0",
+  "description": "CloudFront Functions for redirect from subdomain to main domain with specific path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws-lambda",
+    "lambda",
+    "cloudfront",
+    "cloudfront-functions"
+  ],
+  "author": "zrie",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  }
+}
