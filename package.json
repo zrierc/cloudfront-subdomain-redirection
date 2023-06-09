@@ -4,7 +4,8 @@
   "description": "CloudFront Functions for redirect from subdomain to main domain with specific path.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "keywords": [
     "aws-lambda",
