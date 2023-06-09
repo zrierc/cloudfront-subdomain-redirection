@@ -10,7 +10,7 @@ function handler(event: CloudFrontFunctionsEvent) {
     const host = headers['host'].value;
     const fullDomainName = host.split('.');
     let newUrl = '';
-    const baseUrl = fullDomainName.slice(1).join('.');
+    const baseUrl = fullDomainName.slice(fullDomainName.length - 2).join('.');
 
     if (fullDomainName.length === 3 && fullDomainName[0] !== 'www') {
       newUrl = 'https://' + baseUrl + '/' + fullDomainName[0] + uri;
