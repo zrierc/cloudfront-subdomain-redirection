@@ -14,7 +14,7 @@
     "cloudfront-functions"
   ],
   "author": "zrie",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.117",
     "@types/node": "^20.2.5",
